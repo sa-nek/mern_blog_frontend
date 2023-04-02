@@ -14,8 +14,8 @@ const Header = () => {
   return (
     <header className="flexcentered w-full border justify-between p-2 h-20 shadow-md">
       <h2
-        className="text-slate-900 rounded-md flexcentered px-6
-       font-bold text-xl h-full"
+        className="text-slate-900 rounded-md flexcentered px-4
+       font-bold text-sm md:px-6 md:text-xl h-full"
       >
         <FaBullseye className="pr-2 text-amber-300" size={"2rem"} />{" "}
         <Link to="/">BLOGGIES</Link>
