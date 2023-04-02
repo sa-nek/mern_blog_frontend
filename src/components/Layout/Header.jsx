@@ -26,13 +26,13 @@ const Header = () => {
           <>
             <Link
               to="login"
-              className="text-xs min-[380px]:p-1 min-[380px]:text-sm md:text-xl whitespace-nowrap flexcentered rounded-l-full px-3 h-full bg-amber-200 p-2"
+              className="text-xs min-[380px]:p-2 min-[380px]:text-sm md:text-xl whitespace-nowrap flexcentered rounded-l-full px-3 h-full bg-amber-200 p-2"
             >
               Log In
             </Link>
             <Link
               to="register"
-              className="text-xs min-[380px]:p-1 min-[380px]:text-sm md:text-xl font-semibold whitespace-nowrap flexcentered rounded-r-full px-3 h-full p-2"
+              className="text-xs min-[380px]:p-2 min-[380px]:text-sm md:text-xl font-semibold whitespace-nowrap flexcentered rounded-r-full px-3 h-full p-2"
             >
               Create Account
             </Link>
@@ -41,13 +41,13 @@ const Header = () => {
           <>
             <div
               onClick={handleLogout}
-              className="cursor-pointer text-xs min-[380px]:text-sm min-[380px]:p-1 md:text-xl whitespace-nowrap flexcentered rounded-l-full px-3 h-full bg-amber-200 p-2"
+              className="cursor-pointer text-xs min-[380px]:text-sm min-[380px]:p-2 md:text-xl whitespace-nowrap flexcentered rounded-l-full px-2 h-full bg-amber-200 p-1"
             >
               Log Out
             </div>
             <Link
               to={"/createpost"}
-              className="text-xs min-[380px]:p-1 min-[380px]:text-sm md:text-xl font-semibold whitespace-nowrap flexcentered rounded-r-full px-3 h-full p-2"
+              className="text-xs min-[380px]:p-2 min-[380px]:text-sm md:text-xl font-semibold whitespace-nowrap flexcentered rounded-r-full px-2 h-full p-1"
             >
               Create Post
             </Link>
